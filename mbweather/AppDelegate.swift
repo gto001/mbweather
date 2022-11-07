@@ -44,11 +44,11 @@ class AppDelegate : UIResponder, UIApplicationDelegate,
     
     let TIME_ZONE="Asia/Tokyo"
     
-    let W_HARE = "0"
-    let W_HARE_KUMORI = "1"
+    let W_HARE = ""
+    let W_HARE_KUMORI = "3"
     let W_KUMORI = "2"
-    let W_AME = "3"
-    let W_YUKI = "4"
+    let W_AME = "1"
+    let W_YUKI = "0"
     
     let userDefaults = UserDefaults.standard
     
