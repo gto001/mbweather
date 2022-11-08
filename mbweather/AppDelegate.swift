@@ -44,7 +44,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate,
     
     let TIME_ZONE="Asia/Tokyo"
     
-    let W_HARE = ""
+    let W_HARE = "4"
     let W_HARE_KUMORI = "3"
     let W_KUMORI = "2"
     let W_AME = "1"
@@ -230,11 +230,11 @@ class AppDelegate : UIResponder, UIApplicationDelegate,
             } else {
                 data = W_HARE
             }
-            data += "\n"
+            data += ","
             data += String(weather.temperatureMin)
-            data += "\n"
+            data += ","
             data += String(weather.temperatureMax)
-            data += "\n"
+            data += ",\n"
             sendToMicrobit(str: data)
             break
         }
